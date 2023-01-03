@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+
+#collectionSelect{
+
+    padding: 1em;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 20px 1fr;
+    background-color: #ddd3c1;
+    border-top: 2px solid black;
+    padding: 2em;
+
+}
+.collection{
+    color: white;
+    background-image: url('../furniture assets/Chair/suchit-poojari-ljRiZl00n18-unsplash.jpg');
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-content: center;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s ease-in-out;
+    z-index: 10;
+
+}
+
+.collection2{
+    color: white;
+    background-image: url('../furniture assets/Couch/phillip-goldsberry-fZuleEfeA1Q-unsplash.jpg');
+    background-size: 90%;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    background-repeat: no-repeat;
+    place-content: center;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s ease-in-out;
+}
+
+
+.btn{
+background-color: rgba(35, 32, 32, 0.7);
+padding:1em;
+
+}
+#chairs{
+    background-image: url('../furniture assets/Chair/scopic-ltd-NLlWwR4d3qU-unsplash.jpg');
+    background-position: center;
+    height: 100%;
+    background-size:90%;
+    background-repeat: no-repeat;
+}
+
+#sofas{
+    background-image: url('../furniture assets/Couch/katsia-jazwinska-zSgzGRdJmMY-unsplash.jpg');
+    background-position: center;
+    background-size:90%;
+    height: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.collection:hover{
+    opacity: 1;
+}
+.collection2:hover{
+    opacity: 1;
+}
+
+.borderr{
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    left:0;
+    border-right: 2px solid black;
+    z-index: -1;
+}
+
+@media (width <= 600px) {
+    #collectionSelect{
+        padding: 1em;
+        height: 100vh;
+        display: flex;
+        justify-content:center ;
+        flex-direction: column;
+        background-color: #ddd3c1;
+        border-top: 2px solid black;
+    }
+    #chairs, #sofas{
+        height: 50%;
+    }
+    h1{
+        display: none;
+    }
+   }
+   @media (width <= 750px ) and (width > 600px){
+     #collectionSelect{
+        padding: 1em;
+        height: 100vh;
+        display: grid;
+        justify-content:center ;
+        flex-direction: column;
+        background-color: #ddd3c1;
+        border-top: 2px solid black;
+    }
+
+   }

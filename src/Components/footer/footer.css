@@ -1,0 +1,33 @@
+
+
+.footer{
+    height: 70vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#ddd3c1,#727272);
+    flex-direction: column;
+}
+
+#right{
+    position: absolute;
+    bottom:10px;
+    left: 10px;
+}
+
+@media (width <= 700px) {
+   
+    #outline-name{
+        width: 200px
+    }
+    #email{
+     width: 300px;
+     flex-direction: column;
+     padding: 10px;
+     justify-content: space-around;
+     height: 30%;
+    }
+    
+   }
+

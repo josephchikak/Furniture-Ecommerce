@@ -1,0 +1,23 @@
+
+.store{
+ background-color: rgb(26, 25, 25);
+ overflow: scroll;
+}
+
+.dontPreview{
+    display: none;
+}
+
+.root{
+    border: 2px solid black;
+}
+
+@media (width <= 700px) {
+ .preview{
+  display: none;
+ }
+ .store{
+  width: 100vw;
+ }
+
+ }

@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+#about{
+    scroll-margin-top: 45px;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    background-color: #ddd3c1;
+}
+
+#aboutPic{
+    padding: 3em;
+}
+
+#aboutText{
+    display: grid;
+    place-content: center;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+ p {
+    max-width: 50ch;
+}
+
+.borderrr{
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    left:0;
+    border-right: 2px solid black;
+}
+
+@media (width <= 750px) {
+    #about{
+        display: flex;
+        flex-direction: column;
+         height: 100vh;
+    }
+    .borderrr{
+        display: none;
+    }
+    #aboutText > p{
+      padding:10px;
+      /* width: 45ch; */
+      height: 40vh;
+    }
+    #aboutText > h2{
+        padding:10px;
+
+    }
+    #aboutPic{
+            width: 450px
+    }
+    #aboutText{
+        font-size: 1rem;
+       
+    }
+   }
