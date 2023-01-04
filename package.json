@@ -4,8 +4,6 @@
   "private": true,
   "dependencies": {
     "@chec/commerce.js": "^2.8.0",
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
     "@mui/icons-material": "^5.10.15",
     "@mui/material": "^5.10.15",
     "@react-three/drei": "^9.40.0",
@@ -19,7 +17,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.39.7",
-    "react-image-magnifiers": "^1.4.0",
     "react-router-dom": "^6.4.3",
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "^2.1.3",
