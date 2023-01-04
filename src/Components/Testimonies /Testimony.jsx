@@ -38,7 +38,6 @@ const Testimony = () => {
                { user.review }
               </Typography>
             </CardContent>
-          
           </Card>)
            })}
         </main>
