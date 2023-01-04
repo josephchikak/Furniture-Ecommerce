@@ -1,6 +1,7 @@
-import { Typography, Button, Grid} from '@mui/material'
-import CartItem from './CartItem'
-import {Link} from 'react-router-dom'
+import React from 'react';
+import { Typography, Button, Grid} from '@mui/material';
+import CartItem from './CartItem';
+import {Link} from 'react-router-dom';
 
 
 
