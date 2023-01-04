@@ -25,7 +25,7 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start -p $PORT",
-    "build": "react-scripts --openssl-legacy-provider build",
+    "build": "react-scripts --openssl-legacy-provider build -p $PORT",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
