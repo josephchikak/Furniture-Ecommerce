@@ -78,7 +78,7 @@ const handleActive =() =>{
             <li className="nav"> <HashLink to='/Furniture-Ecommerce/#about'>About</HashLink></li>
           </ul>
           <IconButton id='cart' color='inherit'>
-            <Link to={'cart'}>
+            <Link to={'/Furniture-Ecommerce/cart'}>
                 <Badge id='badge' badgeContent={totalItems} color='secondary'>
                     <ShoppingCart/>
                 </Badge>

@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 
 
 export const FilledCart = ({cart, handleCartUpdate, handleRemove, emptyCart}) => {
-    console.log(cart)
+
     const handleCheckOut =() =>{
             fetch('https://furnitureapi-production.up.railway.app/create-checkout-session', {
             method: 'POST',
