@@ -77,12 +77,12 @@ return (
     <div>
       <Navbar totalItems = {totalItems}/>
       <Routes>
-        <Route path="/Furniture-Ecommerce" element={ <Home/>}/>
-        <Route path="/Furniture-Ecommerce/new" element={<New/>}/>
-        <Route path="/Furniture-Ecommerce/about" element={<About/>}/>
-        <Route path="/Furniture-Ecommerce/chairs" element={<Products onAddToCart = {handleAddToCart} products={products}/>}/>
-        <Route path="/Furniture-Ecommerce/sofas" element={<Products2 onAddToCart = {handleAddToCart} products={products}/>}/>
-        <Route path="/Furniture-Ecommerce/cart" element={<Cart cart = {cart} 
+        <Route path="/" element={ <Home/>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/new" element={<New/>}/>
+        <Route path="/chairs" element={<Products onAddToCart = {handleAddToCart} products={products}/>}/>
+        <Route path="/sofas" element={<Products2 onAddToCart = {handleAddToCart} products={products}/>}/>
+        <Route path="/cart" element={<Cart cart = {cart} 
             handleCartUpdate = {handleCartUpdate}
             handleRemove ={handleRemove}
             emptyCart = {emptyCart}/> } />

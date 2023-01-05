@@ -62,23 +62,23 @@ const handleActive =() =>{
             </svg>
           </div>
           <ul id={!active ? "navs" : "mobileNavs"}>
-            <li className="nav "> <Link to='/Furniture-Ecommerce/#home'>Home </Link></li>
+            <li className="nav "> <Link to='/'>Home </Link></li>
             <div className="nav" id='collection'> Collection
               <div className="dropdown">
-                <li className="navS " > <Link to="/Furniture-Ecommerce/chairs">Chairs</Link>
+                <li className="navS " > <Link to="/chairs">Chairs</Link>
                   <img className="pic" src={chairs} alt=""/>
                 </li>
-                <li className="navS "> <Link to="/Furniture-Ecommerce/sofas">Sofas</Link>
+                <li className="navS "> <Link to="/sofas">Sofas</Link>
                 <img className="pic"  src={couch} alt=""/>
                 
                 </li>
               </div>
             </div>
-            <li className="nav"> <HashLink to='/Furniture-Ecommerce/#new'>New</HashLink></li>
-            <li className="nav"> <HashLink to='/Furniture-Ecommerce/#about'>About</HashLink></li>
+            <li className="nav"> <HashLink to='#new'>New</HashLink></li>
+            <li className="nav"> <HashLink to='#about'>About</HashLink></li>
           </ul>
           <IconButton id='cart' color='inherit'>
-            <Link to={'/Furniture-Ecommerce/cart'}>
+            <Link to={'/cart'}>
                 <Badge id='badge' badgeContent={totalItems} color='secondary'>
                     <ShoppingCart/>
                 </Badge>
