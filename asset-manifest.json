@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Furniture-Ecommerce/static/css/main.5724d540.css",
-    "main.js": "/Furniture-Ecommerce/static/js/main.48a2769f.js",
+    "main.js": "/Furniture-Ecommerce/static/js/main.7db2807b.js",
     "static/media/olena-sergienko-gxKL334bUK4-unsplash.jpg": "/Furniture-Ecommerce/static/media/olena-sergienko-gxKL334bUK4-unsplash.f9c78d827ef059fb622b.jpg",
     "static/media/jean-philippe-delberghe-feijc-nqWKM-unsplash.jpg": "/Furniture-Ecommerce/static/media/jean-philippe-delberghe-feijc-nqWKM-unsplash.205d2c9b0def37d91d5c.jpg",
     "static/media/aung-myin-thu-EDdHTQcxzAE-unsplash.jpg": "/Furniture-Ecommerce/static/media/aung-myin-thu-EDdHTQcxzAE-unsplash.35de6233a8dcaf2c9258.jpg",
@@ -18,10 +18,10 @@
     "static/media/undraw_pic_profile_re_7g2h.svg": "/Furniture-Ecommerce/static/media/undraw_pic_profile_re_7g2h.fa7845edcd17a14cddabc30bcc7c6b26.svg",
     "index.html": "/Furniture-Ecommerce/index.html",
     "main.5724d540.css.map": "/Furniture-Ecommerce/static/css/main.5724d540.css.map",
-    "main.48a2769f.js.map": "/Furniture-Ecommerce/static/js/main.48a2769f.js.map"
+    "main.7db2807b.js.map": "/Furniture-Ecommerce/static/js/main.7db2807b.js.map"
   },
   "entrypoints": [
     "static/css/main.5724d540.css",
-    "static/js/main.48a2769f.js"
+    "static/js/main.7db2807b.js"
   ]
 }
