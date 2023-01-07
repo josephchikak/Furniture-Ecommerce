@@ -17,10 +17,13 @@ export const FilledCart = ({cart, handleCartUpdate, handleRemove, emptyCart}) =>
            items: cart.line_items
         })
      }).then(res =>{
-        if (res.ok) return res.json()
+        if (res.ok) {
+            emptyCart()
+            return res.json()
+        }
+        
         return res.json().then(json => Promise.reject(json))
     }).then(({url}) =>{
-        emptyCart()
         window.location = url
     }).catch(e =>{
         console.error(e.error)
