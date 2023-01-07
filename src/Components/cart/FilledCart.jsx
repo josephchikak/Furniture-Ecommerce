@@ -8,6 +8,7 @@ import {Link} from 'react-router-dom';
 export const FilledCart = ({cart, handleCartUpdate, handleRemove, emptyCart}) => {
 
     const handleCheckOut =() =>{
+            emptyCart()
             fetch('https://furnitureapi-production.up.railway.app/create-checkout-session', {
             method: 'POST',
             headers:{
@@ -18,7 +19,6 @@ export const FilledCart = ({cart, handleCartUpdate, handleRemove, emptyCart}) =>
         })
      }).then(res =>{
         if (res.ok) {
-            emptyCart()
             return res.json()
         }
         
